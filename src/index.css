@@ -33,6 +33,7 @@ header {
   text-align: center;
 }
 
+/* applied to img that is nested in header */
 header img {
   width: 8rem;
   object-fit: contain;
@@ -67,6 +68,7 @@ h1 {
   gap: 2rem;
 }
 
+/* applied to li that are nested in players */
 #players li {
   display: flex;
   align-items: center;
@@ -74,6 +76,8 @@ h1 {
   border: 2px solid transparent;
 }
 
+
+/* id=players className=highlight-player className=active */
 #players.highlight-player li.active {
   border-color: #f6e35a;
   animation: pulse 2s infinite ease-in-out;
